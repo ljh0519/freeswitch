@@ -1,0 +1,25 @@
+<include>
+
+<profile name="unimrcpserver-tts2" version="2">
+  <param name="server-ip" value="30.99.65.175"/> <!-- TTS server -->
+  <param name="server-port" value="5060"/>
+  <param name="resource-location" value=""/>
+  <!-- <param name="client-ip" value="30.4.93.16"/> --> <!-- SIP server --> 
+  <param name="client-ip" value="121.41.87.159"/> <!-- SIP server -->
+  <param name="client-port" value="5090"/>
+  <param name="client-ext-ip" value="121.41.87.159"/> <!-- SIP server -->
+  <param name="sip-transport" value="udp"/>
+  <param name="ua-name" value="Freeswitch"/>
+  <param name="sdp-origin" value="Freeswitch"/>
+  <param name="rtp-ip" value="121.41.87.159"/> <!-- SIP server -->
+  <!-- <param name="rtp-port-max" value="5000"/> -->
+  <param name="rtp-port-min" value="24000"/>
+  <param name="rtp-port-max" value="26000"/>
+  <param name="codecs" value="PCMU PCMA L16/96/8000"/>
+  <param name="speechsynth" value="Flite-1"/>
+  <param name="playout-delay" value="50"/>
+  <param name="max-playout-delay" value="5000"/>
+  <param name="ptime" value="20"/>
+</profile>
+
+</include>
