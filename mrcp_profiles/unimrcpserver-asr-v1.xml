@@ -1,0 +1,26 @@
+<include>
+  <!-- UniMRCP Server MRCPv1 -->
+  <profile name="unimrcpserver-asr1" version="1">
+    <param name="server-ip" value="121.41.55.114"/>
+    <param name="server-port" value="1574"/>
+    <param name="resource-location" value=""/>
+    <param name="speechrecog" value="speechrecognizer"/>
+    <!--param name="rtp-ext-ip" value="auto"/-->
+    <param name="rtp-ip" value="121.41.55.114"/>
+    <param name="rtp-port-min" value="30000"/>
+    <param name="rtp-port-max" value="31000"/>
+    <!--param name="playout-delay" value="50"/-->
+    <!--param name="max-playout-delay" value="200"/-->
+    <!--param name="ptime" value="20"/-->
+    <param name="codecs" value="PCMU PCMA L16/96/8000"/>
+
+    <!-- Add any default MRCP params for SPEAK requests here -->
+    <synthparams>
+    </synthparams>
+
+    <!-- Add any default MRCP params for RECOGNIZE requests here -->
+    <recogparams>
+		<param name="start-input-timers" value="false"/>
+    </recogparams>
+  </profile>
+</include>

@@ -1,0 +1,15 @@
+<include>
+	<gateway name="vos_truck">
+	        <param name="realm" value="39.96.116.65"/>
+	        <param name="register-proxy" value="39.96.116.65"/>
+	        <param name="username" value="freeswitch88"/>
+	        <param name="password" value="Admin066463"/>
+	        <param name="from-user" value="freeswitch88"/>
+	        <param name="from-domain" value="turn2.easemob.com"/>
+	        <param name="register" value="true"/>
+	        <param name="outbound-proxy" value="39.96.116.65"/>
+	        <param name="expire-seconds" value="360"/>
+		<param name="caller-id-in-from" value="true"/>
+	</gateway>
+</include>
+
