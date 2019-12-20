@@ -152,6 +152,7 @@ function SipRobotInstance()
 					    tts_str = string.gsub(tts_str, "{diagnosisDate}", "感冒") 
 					    tts_str = string.gsub(tts_str, "{hosName}", "第一人民医院") 
 					    tts_str = string.gsub(tts_str, "{patAmt}", "398") 
+					    tts_str = string.gsub(tts_str, "{patAmt}", "298") 
 					    tts_str = string.gsub(tts_str, "{birthDate}", "一九八九年十一月一日") 
 					    tts_str = string.gsub(tts_str, "{sex}", "男") 
 					end
