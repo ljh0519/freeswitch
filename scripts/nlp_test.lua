@@ -148,7 +148,12 @@ function SipRobotInstance()
 					local tts_str = ""
 					if(voice_list[i]["voice"] ~= nil) then
 					    tts_str = voice_list[i]["voice"] 
-					    tts_str = string.gsub(tts_str, "{.+}", "某某某") 
+					    tts_str = string.gsub(tts_str, "{clientName}", "王先生") 
+					    tts_str = string.gsub(tts_str, "{diagnosisDate}", "感冒") 
+					    tts_str = string.gsub(tts_str, "{hosName}", "第一人民医院") 
+					    tts_str = string.gsub(tts_str, "{patAmt}", "398") 
+					    tts_str = string.gsub(tts_str, "{birthDate}", "一九八九年十一月一日") 
+					    tts_str = string.gsub(tts_str, "{sex}", "男") 
 					end
 					obj.ttsSpeak(tts_str)
 				else 
